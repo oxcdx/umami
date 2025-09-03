@@ -11,7 +11,7 @@ module.exports = {
     config.module.rules.push({
       test: /\.svg$/,
       issuer: {
-        test: /\.js$/,
+        and: [/\.js$/],
       },
       use: ['@svgr/webpack'],
     });
