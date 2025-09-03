@@ -56,7 +56,7 @@
     }
   },
   "dependencies": {
-    "@prisma/client": "2.21.2",
+  "@prisma/client": "^5.13.0",
     "@reduxjs/toolkit": "^1.5.1",
     "bcryptjs": "^2.4.3",
     "chalk": "^4.1.1",
@@ -121,7 +121,7 @@
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.2.1",
     "prettier-eslint": "^12.0.0",
-    "prisma": "2.21.2",
+  "prisma": "^5.13.0",
     "rollup": "^2.45.2",
     "rollup-plugin-hashbang": "^2.2.2",
     "rollup-plugin-terser": "^7.0.2",
